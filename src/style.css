@@ -1,0 +1,75 @@
+@import url(variables.css);
+
+/* General body styling */
+body {
+	font-family: var(--font-sans);
+	color: var(--text-color);
+	background-color: var(--bg-color);
+	max-width: clamp(40rem, 100svw, 80rem);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1svh calc(5svw + 2rem); /* Dynamic padding based on viewport width */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+	color: var(--heading-color);
+	hyphens: auto;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+}
+
+/* Links */
+a {
+	text-decoration: underline;
+	color: var(--link-color);
+}
+
+/* Blockquotes */
+blockquote {
+	color: var(--blockquote-color);
+}
+
+/* Preformatted Text */
+pre {
+	background-color: var(--preformatted-bg);
+	font-family: var(--font-mono);
+	padding: 10px;
+	overflow-x: auto;
+}
+
+pre > code {
+	background-color: transparent;
+	padding: 0;
+	white-space: pre;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: justify;
+	width: 100%;
+}
+
+code {
+	font-family: var(--font-mono);
+}
+
+label,
+legend,
+fieldset {
+	display: block;
+}
