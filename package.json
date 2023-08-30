@@ -1,0 +1,27 @@
+{
+  "name": "virgo-css",
+  "version": "0.1.0",
+  "description": "VirgoCSS is a minimalistic and lightweight CSS library designed for simplicity and user agency. Inspired by PicoCSS, MercuryCSS, and the Gemini protocol.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenndev/virgo-css.git"
+  },
+  "bugs": "https://github.com/fenndev/virgo-css/issues",
+  "author": "fenndev",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "css-framework",
+    "dark-mode",
+    "dark-theme",
+    "lightweight",
+    "minimal",
+    "minimalist",
+    "minimalistic",
+    "native-html",
+    "semantic"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
